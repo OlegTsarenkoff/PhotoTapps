@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		244B8EC5268E1C6C008A0573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B8EC4268E1C6C008A0573 /* AppDelegate.swift */; };
 		244B8EC7268E1C6C008A0573 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B8EC6268E1C6C008A0573 /* SceneDelegate.swift */; };
-		244B8EC9268E1C6C008A0573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B8EC8268E1C6C008A0573 /* ViewController.swift */; };
 		244B8ECC268E1C6C008A0573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244B8ECA268E1C6C008A0573 /* Main.storyboard */; };
 		244B8ECE268E1C6F008A0573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244B8ECD268E1C6F008A0573 /* Assets.xcassets */; };
 		244B8ED1268E1C6F008A0573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244B8ECF268E1C6F008A0573 /* LaunchScreen.storyboard */; };
+		244B8EDD268EEA42008A0573 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B8EDC268EEA42008A0573 /* PhotosCollectionViewController.swift */; };
+		244B8EDF268EF121008A0573 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B8EDE268EF121008A0573 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		244B8EC1268E1C6C008A0573 /* PhotoTapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		244B8EC4268E1C6C008A0573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		244B8EC6268E1C6C008A0573 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		244B8EC8268E1C6C008A0573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		244B8ECB268E1C6C008A0573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		244B8ECD268E1C6F008A0573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244B8ED0268E1C6F008A0573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244B8ED2268E1C6F008A0573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244B8EDC268EEA42008A0573 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		244B8EDE268EF121008A0573 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				244B8EC4268E1C6C008A0573 /* AppDelegate.swift */,
 				244B8EC6268E1C6C008A0573 /* SceneDelegate.swift */,
-				244B8EC8268E1C6C008A0573 /* ViewController.swift */,
 				244B8ECA268E1C6C008A0573 /* Main.storyboard */,
+				244B8EDE268EF121008A0573 /* PhotoCell.swift */,
+				244B8EDC268EEA42008A0573 /* PhotosCollectionViewController.swift */,
 				244B8ECD268E1C6F008A0573 /* Assets.xcassets */,
 				244B8ECF268E1C6F008A0573 /* LaunchScreen.storyboard */,
 				244B8ED2268E1C6F008A0573 /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244B8EC9268E1C6C008A0573 /* ViewController.swift in Sources */,
+				244B8EDF268EF121008A0573 /* PhotoCell.swift in Sources */,
 				244B8EC5268E1C6C008A0573 /* AppDelegate.swift in Sources */,
 				244B8EC7268E1C6C008A0573 /* SceneDelegate.swift in Sources */,
+				244B8EDD268EEA42008A0573 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
